@@ -1,0 +1,20 @@
+.search {
+    display: none; /* Hide by default */
+    width: 300;
+    border: none;
+    padding:6px;
+    background-color: #f4f5f8;
+   
+  }
+  
+  @media (min-width: 640px) {
+    .search{
+      display:flex;
+    }
+  }
+  @media (max-width: 640px) {
+    .logo{
+      width:100px;
+      height:16px;
+    }
+  }
